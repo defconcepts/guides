@@ -11,3 +11,4 @@ Swift
 * Let the compiler infer the type whenever possible
 * Group computed properties below stored properties
 * Use a blank line above and below computed properties
+* Group `private` methods in a `private` `extension`

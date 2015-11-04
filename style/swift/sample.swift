@@ -63,3 +63,10 @@ case let .Success(data):
 case let .Failure(error):
     println("An error occured: \(error)")
 }
+
+// Group private methods in a private extension
+private extension MyClass {
+  func doSomethingPrivate() {
+
+  }
+}
