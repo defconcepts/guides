@@ -64,7 +64,7 @@ case let .Failure(error):
     println("An error occured: \(error)")
 }
 
-// Group private methods in a private extension
+// Group methods into specific extensions for each level of access control
 private extension MyClass {
   func doSomethingPrivate() {
 
